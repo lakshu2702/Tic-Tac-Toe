@@ -1,14 +1,14 @@
 # Tic-Tac-Toe
-This Tic Tac Toe game, built with Python’s tkinter, lets you play against another player or the computer. It tracks scores, checks for wins or ties, and highlights the winning line. Simply input player names and start playing. Requires Python 3.x. Future updates may include better AI and difficulty levels.
+This Tic-Tac-Toe game, built with Python’s `tkinter`, allows you to play against another player or the computer. The game tracks scores, checks for wins or ties, and highlights winning lines. Just input player names to start playing. Future updates may feature enhanced AI and difficulty levels.
 
 ## Features
 
-- **Two-Player Mode:** Play against a friend.
-- **Computer Mode:** Play against the AI.
-- **Score Tracking:** Keeps track of each player's score.
-- **Winner Detection:** Automatically checks for a winner or tie.
-- **Color Highlights:** Winning lines are highlighted for easy identification.
-- **Play Again:** Option to start a new game or exit after each round.
+- **Two-Player Mode**: Play against a friend.
+- **Computer Mode**: Play against the AI.
+- **Score Tracking**: Keeps track of each player's score.
+- **Winner Detection**: Automatically checks for a winner or tie.
+- **Color Highlights**: Highlights the winning lines for easy recognition.
+- **Play Again Option**: Option to start a new game or exit after each round.
 
 ## Requirements
 
@@ -17,6 +17,64 @@ This Tic Tac Toe game, built with Python’s tkinter, lets you play against anot
 
 ## How to Run
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run the game.
+1. Clone the repository:
+   ```bash
+   git clone <github.com/lakshu2702/Tic-Tac-Toe>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd tic-tac-toe
+   ```
+3. Run the game:
+   ```bash
+   python tic_tac_toe.py
+   ```
+
+## Screenshots
+
+### 1. Player 1 Name Input and Bot Selection
+*Input the name of Player 1 and select whether to play against the bot.*
+
+![Fig 8.1: Player 1 Name Input and Bot Selection](path/to/Fig8.1.png)
+
+---
+
+### 2. Game Start - Empty Grid Display
+*An empty grid is shown when the game starts.*
+
+![Fig 8.4: Empty Grid Display](path/to/Fig8.4.png)
+
+---
+
+### 3. Game Commencement
+*The game grid once the gameplay has commenced.*
+
+![Fig 8.5: Game Commencement](path/to/Fig8.5.png)
+
+---
+
+### 4. Win Prompt with Replay Option
+*Player 2 wins, with an option to continue or end the game.*
+
+![Fig 8.7: Win Prompt](path/to/Fig8.7.png)
+
+---
+
+### 5. Tie Result Display
+*Display when the game results in a tie.*
+
+![Fig 8.8: Tie Result Display](path/to/Fig8.8.png)
+
+---
+
+### 6. Final Score After Multiple Rounds
+*Final score shown after multiple rounds.*
+
+![Fig 8.9: Final Score](path/to/Fig8.9.png)
+
+---
+
+## Future Enhancements
+
+- **Improved AI**: Enhance the AI for smarter gameplay.
+- **Difficulty Levels**: Add adjustable difficulty levels for the computer mode.
