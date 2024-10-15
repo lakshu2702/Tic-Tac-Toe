@@ -1,3 +1,37 @@
+# Tic-Tac-Toe
+This Tic-Tac-Toe game, built with Python’s tkinter, allows you to play against another player or the computer. The game tracks scores, checks for wins or ties, and highlights winning lines. Just input player names to start playing. Future updates may feature enhanced AI and difficulty levels.
+
+## Features
+
+- **Two-Player Mode**: Play against a friend.
+- **Computer Mode**: Play against the AI.
+- **Score Tracking**: Keeps track of each player's score.
+- **Winner Detection**: Automatically checks for a winner or tie.
+- **Color Highlights**: Highlights the winning lines for easy recognition.
+- **Play Again Option**: Option to start a new game or exit after each round.
+
+## Requirements
+
+- Python 3.x
+- tkinter (included with most Python installations)
+
+## How to Run
+
+1. Clone the repository:
+   
+bash
+   git clone <github.com/lakshu2702/Tic-Tac-Toe>
+
+2. Navigate to the project directory:
+   
+bash
+   cd tic-tac-toe
+
+3. Run the game:
+   
+bash
+   python tic_tac_toe.py
+   
 ## Screenshots
 
 ### 1. Player 1 Name Input and Bot Selection
@@ -39,3 +73,10 @@
 *Final score shown after multiple rounds.*
 
 ![Fig 8.9: Final Score](screenshots/s6.png)
+
+---
+
+## Future Enhancements
+
+- **Improved AI**: Enhance the AI for smarter gameplay.
+- **Difficulty Levels**: Add adjustable difficulty levels for the computer mode.
